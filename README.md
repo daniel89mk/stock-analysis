@@ -112,10 +112,8 @@ Sub AllStocksAnalysisChallenged()
         
 
         Next i
-
-    
-
- 'Formatting
+  
+ 'Formatting for my results
  
     Worksheets("All Stocks Analysis").Activate
     Range("A3:C3").Font.FontStyle = "Bold"
