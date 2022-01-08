@@ -23,29 +23,25 @@ Disadvantages: It might take longer time than you planned.
 It could be more difficult as you might want to keep fixing your codes to work. 
 
 ## my codes
-Sub AllStocksAnalysisChallenged()
+Sub AllStocksAnalysisChallenge()
 
-    'Need to make variables for run time
     Dim startTime As Single
     Dim endTime As Single
     
-    
-    yearValue = InputBox("What year would you like to run the analysis on?")
+    yearValue = InputBox("What year would you like to run the analysis on? ")
     startTime = Timer
-
+    
     Worksheets("All Stocks Analysis").Activate
-
+    
     Range("A1").Value = "All Stocks (" + yearValue + ")"
     
     
-    
-    'Create a header row
+    'Create headers now
     Cells(3, 1).Value = "Ticker"
     Cells(3, 2).Value = "Total Daily Volume"
     Cells(3, 3).Value = "Return"
     
-    
-    
+
     Dim tickers(12) As String
 
     tickers(0) = "AY"
@@ -112,9 +108,10 @@ Sub AllStocksAnalysisChallenged()
         
 
         Next i
-  
- 'Formatting for my results
- 
+
+    
+
+ 'Formatting
     Worksheets("All Stocks Analysis").Activate
     Range("A3:C3").Font.FontStyle = "Bold"
     Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
@@ -136,5 +133,8 @@ Sub AllStocksAnalysisChallenged()
         End If
 
     Next i
+
+
+
 
 End Sub
