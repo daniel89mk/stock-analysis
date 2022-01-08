@@ -10,7 +10,7 @@ The attached images will help visualize their performance levels.
 ![2017](VBA_Challenge_2017.png)
 
 ## Stock Volumes by Ticker from 2018
-![2018](VBA_Challenge_2018_2.png)
+![2018](VBA_Challenge_2018.png)
 
 ##### My Short Analysis:
 As you can see by the colors, the return percentages show that they did better in 2017 but there is so many reds showing negative percentages in 2018. 
