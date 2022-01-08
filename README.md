@@ -111,7 +111,6 @@ Sub AllStocksAnalysisChallenge()
 
     
 
- 'Formatting
     Worksheets("All Stocks Analysis").Activate
     Range("A3:C3").Font.FontStyle = "Bold"
     Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
